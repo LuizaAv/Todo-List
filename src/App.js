@@ -32,7 +32,7 @@ function App() {
   }
 
   const saveLocalTodos = () => {
-    if(localStorage.getItem("todos" ===null){
+    if(localStorage.getItem("todos" ===null)){
       localStorage.setItem("todos", JSON.stringify([]))
     }else{
       localStorage.setItem("todos", JSON.stringify(todos) )
@@ -40,7 +40,7 @@ function App() {
   }
 
   const getLocalTodos = () => {
-    if(localStorage.getItem("todos" ===null){
+    if(localStorage.getItem("todos" ===null)){
       localStorage.setItem("todos", JSON.stringify([]))
     }else{
       localStorage.setItem("todos", JSON.stringify(todos) )
@@ -50,7 +50,7 @@ function App() {
   return (
     <div className="App">
       <header>
-      <h1>Luiza's Todo list</h1>
+      <h1>Todo list</h1>
       </header>
       <Form  
       inputText = {inputText}
