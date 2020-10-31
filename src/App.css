@@ -26,6 +26,7 @@
     font-size: 2rem;
     border: none;
     background: white;
+    border-radius: 5px;
   }
   form button {
     color: #ff6f47;
@@ -79,25 +80,6 @@
   }
   .todo-item {
     padding: 0rem 0.5rem;
-  }
-  
-  .fa-trash,
-  .fa-check {
-    pointer-events: none;
-  }
-  
-  .fall {
-    transform: translateY(10rem) rotateZ(20deg);
-    opacity: 0;
-  }
-  
-  .completed {
-    text-decoration: line-through;
-    opacity: 0.5;
-  }
-  
-  /*CUSTOM SELECTOR */
-  select {
     -webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
@@ -113,6 +95,7 @@
     margin: 1rem;
     position: relative;
     overflow: hidden;
+    border-radius:  5px;
   }
   select {
     color: #ff6f47;
@@ -130,6 +113,7 @@
     background: #ff6f47;
     cursor: pointer;
     pointer-events: none;
+    border-radius:  5px;
   }
   /* Transition */
   /*
